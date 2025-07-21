@@ -2,9 +2,9 @@
 Hello! This repository contains a classification model I created using PyTorch for the classification of signal events from collider physics data. Model was based on data provided by UC Irvine Machine Learning Repository, https://archive.ics.uci.edu/dataset/347/hepmass. In my repository you will find my test.py, which locates the classification model, and analysis.py, which locates various analysis and plotting I did to look at the model's performance.
 ## Table of Contents
 - [Overview](#Overview)
-- [Model Breakdown](#modelbreakdown)
+- [Model Breakdown](#model-breakdown)
 - [Analysis](#analysis)
-- [Improvements and Next Steps](#improvementsandnextsteps)
+- [Improvements and Next Steps](#improvements-and-next-steps)
 ## Overview
 The purpose of the model developed in this paper is to take data from the UCI dataset and successfully distinguish between signal and background events given the 27 input features. Since the purpose is to distinguish between 1 (signal event) behavior and 0 (background event), the model was developed as a supervised learning algorithm classification model. The model was developed using PyTorch and corresponding Python tools.
 ## Model Breakdown
