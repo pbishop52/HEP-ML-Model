@@ -22,6 +22,7 @@ The purpose of the model developed in this paper is to take data from the UCI da
   ![ROC Curve](ROC.png)
 
   For the sake of variance, what would the analysis look like at different thresholds? To show this, confusion matrices to highlight the importance of an optimized threshold. If you pick a too high of a threshold, the false negative rate spikes and if you pick too low of a threshold, the false positive rate spikes. For this analysis, 0.5 is a good place as it offers a balance, but to find the optimized threshold, further adjustments need to be made to the model. 
+ 
   ![CM 0.1](cm_0.1.png)
   ![CM 0.5](cm_0.9.png)
   ![CM 0.9](cm_0.9.png)
